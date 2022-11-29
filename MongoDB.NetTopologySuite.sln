@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.NetTopologySuite.Serialization", "src\MongoDB.NetTopologySuite.Serialization\MongoDB.NetTopologySuite.Serialization.csproj", "{7C06A0C4-7D58-438B-9512-9EA0768B2512}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.NetTopologySuite.Serialization.Tests", "test\MongoDB.NetTopologySuite.Serialization.Tests\MongoDB.NetTopologySuite.Serialization.Tests.csproj", "{F9B53850-746E-4737-83F5-3A7BEC6E2AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{927EAD74-9818-4C3E-9BA4-BA4434DB77A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{250ACBDA-A67E-4049-BC61-E48C5DD7F130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C06A0C4-7D58-438B-9512-9EA0768B2512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C06A0C4-7D58-438B-9512-9EA0768B2512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C06A0C4-7D58-438B-9512-9EA0768B2512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C06A0C4-7D58-438B-9512-9EA0768B2512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B53850-746E-4737-83F5-3A7BEC6E2AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B53850-746E-4737-83F5-3A7BEC6E2AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B53850-746E-4737-83F5-3A7BEC6E2AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B53850-746E-4737-83F5-3A7BEC6E2AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C06A0C4-7D58-438B-9512-9EA0768B2512} = {927EAD74-9818-4C3E-9BA4-BA4434DB77A8}
+		{F9B53850-746E-4737-83F5-3A7BEC6E2AA5} = {250ACBDA-A67E-4049-BC61-E48C5DD7F130}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E299CC3-23E9-4B09-88D3-B15FF9639BB0}
+	EndGlobalSection
+EndGlobal
